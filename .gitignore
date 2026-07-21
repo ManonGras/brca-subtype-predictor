@@ -1,0 +1,18 @@
+# Raw data (large, publicly available at the source, not versioned)
+data/raw/
+
+# Large intermediate processed file (>400MB, exceeds GitHub's file size limit)
+data/processed/tcga_train.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS
+.DS_Store
